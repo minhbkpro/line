@@ -1,0 +1,72 @@
+<!--
+Copyright by minhbkpro email : minhbkpro@gmail.com
+Accordition menu by izwebz.com
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <script type="text/javascript" language="javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" language="javascript" src="js/cookie.js"></script>
+    <script type="text/javascript" language="javascript" src="js/jquery.timers-1.1.2.js"></script>
+    <script type="text/javascript" language="javascript" src="js/function.js"></script>
+    <script type="text/javascript" language="javascript" src="js/javascript.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="top">
+            <div id="time">00:00:00</div>
+            <div id="play" class="pause"></div>
+            <div id="mark">0</div>
+        </div><!-- End #top -->
+        <div id="content">
+            <div id="left_content">
+                <div id="start">New game</div>
+                <div id="end">End game</div>
+            </div>
+            <ul id="line">
+                <li value="11"></li>
+            </ul><!-- End #line -->
+            <dl id="right_content">
+                <dt class="active"><a href="">Luật chơi</a></dt>
+                <dd>
+                    <ul id="rule">
+                        <p>+ Bóng chỉ di chuyển theo đường thẳng</p>
+                        <p>+ Di chuyển bóng to đè lên bóng nhỏ thì bóng nhỏ biến mất</p>
+                        <p>+ 5 quả bóng cùng màu thẳng hàng trở lên thì tính điểm,hàng ngang hoặc chéo, mỗi quả 1 điểm.</p>
+                        <p>+ Ăn 6 quả một lần thì mỗi quả được 2 điểm, 7 quả thì 3 điểm ...</p>
+                        <p>+ Game kết thúc khi trên bàn chỉ còn một ô trống.</p>
+                        <p>+ Độ khó tùy thuộc vào số bóng xuất hiện lần kế tiếp, dễ là 2 quả, trung bình là 3 quả, khó là 4 quả</p>
+                    </ul>
+                </dd>
+
+                <dt><a href="#">Chọn cấp dộ</a></dt>
+                <dd>
+                    <ul id="level">
+                        <form name="level" method="post">
+                            <div><input name="level" type="radio" value="2" /><label>Dễ</label></div>
+                            <div><input name="level" type="radio" value="3" checked /><label>Trung bình</label></div>
+                            <div><input name="level" type="radio" value="4" /><label>Khó</label></div>
+                        </form>
+                        <div class="clear"></div>
+                    </ul>
+                </dd>
+
+                <dt><a href="#">About</a></dt>
+                <dd>
+                    <ul>
+                        <p>Copyright by minhbkpro</p>
+                        <p>email : minhbkpro@gmail.com</p>
+                        <p>Accordition menu by izwebz.com</p>
+                    </ul>
+                </dd>
+            </dl><!-- End #right_content -->
+            <div class="clear"></div>
+        </div><!-- End #content -->
+        <div class="clear"></div>
+    </div><!-- End #wrapper -->
+</body>
+</html>

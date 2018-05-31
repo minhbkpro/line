@@ -1,0 +1,152 @@
+/*
+* Copyright by minhbkpro email : minhbkpro@gmail.com
+* Accordition menu by izwebz.com
+*/
+*{margin: 0;padding: 0}
+
+html,body{
+    background: black;
+    text-align: center;
+}
+
+#wrapper{
+    width: 1000px;
+/*    border: 1px solid white;*/
+}
+
+#line{
+    width: 470px;
+    float: left;
+}
+#line li{
+    width: 50px;
+    height: 50px;
+    background: #c4c4c4;
+    float: left;
+    list-style: none;
+    border: 1px solid black;
+    position: relative;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+.ball{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+}
+.b{
+    width: 32px;
+    height: 32px;
+    margin: -16px 0px 0px -16px;
+    cursor: pointer;
+}
+.s{
+    width: 10px;
+    height: 10px;
+    margin: -5px 0px 0px -5px;
+}
+#mark{
+    color: white;
+    font-size: 15px;
+}
+
+/*top*/
+#top{
+    height: 50px;
+    width: 460px;
+/*    border: 1px solid #c4c4c4;*/
+    margin: 10px auto 2px 200px;
+}
+#top div{
+    width: 150px;
+    height: 50px;
+    float: left;
+    font-size: 43px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+#top #play{
+    width: 50px;
+    cursor: pointer;
+}
+.pause{
+    background: url(../images/pause.PNG) no-repeat center;
+}
+.play{
+    background: url(../images/play.PNG) no-repeat center;
+}
+#top #time,#top #mark{
+    width: 200px;
+}
+.clear{
+    clear: both;
+}
+
+/*right content*/
+.active {
+    background: #3883cc url(../images/right.png) no-repeat 5px center;
+}
+dl  {
+    width: 250px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+dt{
+    background: #3883cc url(../images/down.png) no-repeat 5px center;
+    border-bottom: 1px solid white;
+    font-size: 14px;
+    padding: 5px 0px;
+}
+
+dt a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 18px;
+}
+
+dd a {
+    color: black;
+}
+
+dd ul {
+    list-style: none; padding: 5px;
+    background: white;
+}
+#level div{
+    clear: both;
+    margin: 5px 0px;
+}
+#level div label{
+    display: block;
+    float: left;
+}
+#level div input{
+    display: block;
+    float: left;
+    width: 90px;
+}
+
+/*left content*/
+#left_content{
+    width: 100px;
+    float: left;
+    margin: 0px 20px 0px 80px;
+}
+#left_content div{
+    width: 85px;
+    height: 78px;
+    background: url(../images/button.PNG) no-repeat center;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    line-height: 78px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}

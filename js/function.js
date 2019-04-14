@@ -1,6 +1,5 @@
 /* 
  * Copyright by minhbkpro email : minhbkpro@gmail.com
- * Accordition menu by izwebz.com
  */
 //var local = 'minhbkpro';
 jQuery(document).ready(function($){

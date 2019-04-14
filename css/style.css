@@ -74,10 +74,10 @@ html,body{
     cursor: pointer;
 }
 .pause{
-    background: url(../images/pause.PNG) no-repeat center;
+    background: url(../images/pause.png) no-repeat center;
 }
 .play{
-    background: url(../images/play.PNG) no-repeat center;
+    background: url(../images/play.png) no-repeat center;
 }
 #top #time,#top #mark{
     width: 200px;
@@ -141,7 +141,7 @@ dd ul {
 #left_content div{
     width: 85px;
     height: 78px;
-    background: url(../images/button.PNG) no-repeat center;
+    background: url(../images/button.png) no-repeat center;
     margin-top: 10px;
     color: white;
     text-align: center;

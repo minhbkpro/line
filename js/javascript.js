@@ -1,6 +1,5 @@
 /* 
  * Copyright by minhbkpro email : minhbkpro@gmail.com
- * Accordition menu by izwebz.com
  */
 jQuery(document).ready(function($){
     //thiết lập các giá trị ban đầu

@@ -12,7 +12,7 @@ jQuery(document).ready(function($){
         if(i != 0)
             color = i;
         var random_ball = 'ball'+color+'_'+type;
-        $(this).html('<img class="ball '+type+' '+random_ball+'" src="images/'+random_ball+'.PNG" />');
+        $(this).html('<img class="ball '+type+' '+random_ball+'" src="images/'+random_ball+'.png" />');
 
         $().deleteElement(taglist, tag);//xóa cả trường hợp vẽ bóng nhỏ, ta sẽ add trở lại sau đó để tránh random bị trùng
 
